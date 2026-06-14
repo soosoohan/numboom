@@ -39,9 +39,9 @@ NumStone is a strategic puzzle game where you drop number cards onto a grid and 
 
 |Game        |Queue         |Special Cards       |Obstacle|Grid Size      |
 |------------|--------------|----------------------------|--------|---------------|
-|**NumStone**|Number cards only<br> (2·4·8·16)                 |None                        |Rock    |4×4 / 5×5 / 6×6|
-|**NumDrops**|Number cards only <br>(2·4·8·16)                 |None                        |—       |4×4 / 5×5 / 6×6|
-|**NumChaos**|Number cards (2·4·8·16) <br> special cards mixed|💣÷2 💥÷4 ☢️destroy 🍎×2 🍒×4 🍇×8|—       |4×6 / 5×5 / 6×6|
+|**NumStone**|Number cards only<br>(2·4·8·16)|None|Rock    |4×4 / 5×5 / 6×6|
+|**NumDrops**|Number cards only<br>(2·4·8·16)|None|—       |4×4 / 5×5 / 6×6|
+|**NumChaos**|Number cards (2·4·8·16)<br>special cards mixed|💣÷2 💥÷4 ☢️destroy 🍎×2 🍒×4 🍇×8|—       |4×6 / 5×5 / 6×6|
 |**NumBoom** |Number cards (2·4·8·16) <br> special cards mixed|💣÷2 💥÷4 ☢️destroy            |—       |4×6 / 5×5 / 6×6|
 |**NumNum**  |Number cards (2·4·8·16) <br> special cards mixed|🍎×2 🍒×4 🍇×8                 |—       |4×6 / 5×5 / 6×6|
 
