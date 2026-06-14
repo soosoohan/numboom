@@ -96,7 +96,7 @@ This project is registered with the Korea Copyright Commission.
 
 ---
 
-## 넘드롭스 주소 : https://soosooland.com/drop/
+## 넘붐 주소 : https://soosooland.com/numboom/
 
 ## 🌟 Soosooland - Puzzle Game Hub by Han Soosoo
 
