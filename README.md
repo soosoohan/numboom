@@ -34,16 +34,18 @@ Core Rules
 	•	3 cards wait in queue. Choose a column to drop the first card — it lands on the bottom or stacks on top of another card.
 	•	Matching numbers adjacent in any direction merge. The newer card is absorbed into the older one, doubling its value. Chain merges are possible.
 	•	The game ends when the top row is full — even if space remains below.
+	•	In NumBoom / NumNum / NumChaos, number cards (2, 4, 8, 16) and special cards are shuffled together randomly in the queue. The player chooses a column, and the front card drops into that position.
+	•	Special cards have no effect if they land without touching a number card.
 
-Series Lineup
 
-|Game        |What’s Different        |
-|------------|-------------------------|
-|**NumStone**|Pure merge strategy. Number cards only.                                                                                                                                                                                            |
-|**NumDrops**|NumStone without rocks. Three grid sizes: 4×4, 5×5, 6×6.                                                                                                                                                                           |
-|**NumBoom** |Special cards fall alongside number cards: 💣÷2, 💥÷4, ☢️destroys / 🍎×2, 🍒×4, 🍇×8. They multiply or reduce adjacent numbers on contact. No adjacent number? Fruit rots, bomb misfires. Special cards cannot create numbers above 2048.|
-|**NumChaos**|All 6 special cards from NumBoom appear together — bombs and fruit falling in chaotic combination.                                                                                                                                 |
-|**NumMine** |Hidden number obstacles are scattered across the grid. Get close and the number is revealed; match it and it merges.                                                                                                               |
+
+|Game        |Queue         |Special Cards       |Obstacle|Grid Size      |
+|------------|--------------|----------------------------|--------|---------------|
+|**NumStone**|Number cards only (2·4·8·16)                 |None                        |Rock    |4×4 / 5×5 / 6×6|
+|**NumDrops**|Number cards only (2·4·8·16)                 |None                        |—       |4×4 / 5×5 / 6×6|
+|**NumChaos**|Number cards (2·4·8·16) + special cards mixed|💣÷2 💥÷4 ☢️destroy 🍎×2 🍒×4 🍇×8|—       |4×6 / 5×5 / 6×6|
+|**NumBoom** |Number cards (2·4·8·16) + special cards mixed|💣÷2 💥÷4 ☢️destroy            |—       |4×6 / 5×5 / 6×6|
+|**NumNum**  |Number cards (2·4·8·16) + special cards mixed|🍎×2 🍒×4 🍇×8                 |—       |4×6 / 5×5 / 6×6|
 
 ---
 ## ⚠️ **Copyright Protection   
