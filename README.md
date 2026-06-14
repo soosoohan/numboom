@@ -3,25 +3,49 @@
 All games are registered copyrights. Unauthorized copying or redistribution is prohibited.  
 모든 게임은 저작권 등록된 창작물입니다. 무단 복제 및 배포를 금합니다.  
 تمام گیمز کاپی رائٹ محفوظ ہیں۔ غیر مجاز نقل ممنوع ہے۔
-  ##  👤 넘드롭스( Numdrops)
+ 좋아, 넘스톤 시리즈 전체를 하나의 통합 설명으로 정리할게. 한국어 먼저, 영어 뒤에.
 
-넘드롭스(Numdrops)는  넘스톤(NumStone)의 바위가 없는 버전입니다.
+넘스톤 시리즈 / NumStone Series
 
-넘드롭스는 숫자 카드를 격자에 떨어뜨려 같은 숫자끼리 합체시키는 전략 퍼즐 게임입니다.  
-열을 선택해 카드를 드롭하고, 숫자를 합체시켜 더 큰 수를 만드세요 — 시간 압박은 없습니다.  
-Numstone is a strategic puzzle game where you drop number cards onto a grid and merge matching numbers together.  
-Choose a column, drop your card, and merge your way to bigger numbers — no time pressure. 
+넘스톤은 숫자 카드를 격자에 떨어뜨려 같은 숫자끼리 합체시키는 전략 퍼즐 게임입니다. 시간 압박 없이, 열을 선택해 카드를 드롭하고 연쇄 합체로 더 큰 수를 만들어가세요.
 
-### 게임 방법 / How to Play  
-느
-- 대기 카드 3장이 순서대로 준비됩니다. 열을 선택해 카드를 떨어뜨리면 바닥이나 다른 카드 위에 얹힙니다.    
-  3 cards wait in queue. Choose a column to drop the first card — it lands on the bottom or on top of another card.  
-  
-- 상하좌우로 같은 숫자가 인접하면 합체됩니다. 나중에 온 카드가 먼저 있던 카드에 흡수되어 2배가 됩니다. 연쇄 합체도 가능합니다.    
-  Matching numbers adjacent in any direction merge. The newer card is absorbed into the older one, doubling its value. Chain merges are possible.  
+공통 규칙
 
-- 맨 윗줄이 가득 차면 게임이 종료됩니다. 중간에 빈 자리가 있어도 맨 윗줄 기준으로 판단합니다.  
-  The game ends when the top row is full — even if space remains below. Watch the top.
+	•	대기 카드 3장이 순서대로 준비됩니다. 열을 선택해 카드를 떨어뜨리면 바닥이나 다른 카드 위에 얹힙니다.
+	•	상하좌우로 같은 숫자가 인접하면 합체됩니다. 나중에 온 카드가 먼저 있던 카드에 흡수되어 2배가 됩니다. 연쇄 합체도 가능합니다.
+	•	맨 윗줄이 가득 차면 게임이 종료됩니다. 중간에 빈 자리가 있어도 맨 윗줄 기준으로 판단합니다.
+
+시리즈 라인업
+
+
+
+|게임      |특징                                                                                                    |
+|--------|------------------------------------------------------------------------------------------------------|
+|**넘스톤** |순수 합체 전략. 숫자 카드만 낙하.                                                                                  |
+|**넘드롭스**|바위(장애물) 없는 넘스톤. 4×4 / 5×5 / 6×6 세 가지 격자 크기.                                                           |
+|**넘붐**  |특수 카드 낙하: 💣÷2, 💥÷4, ☢️소멸 / 🍎×2, 🍒×4, 🍇×8. 인접 숫자를 줄이거나 늘림. 닿는 숫자 없으면 과일은 상하고 폭탄은 불발. 특수 카드로는 2048 초과 불가.|
+|**넘카오스**|넘붐의 6종 특수 카드가 모두 등장. 폭탄+과일이 동시에 낙하하는 혼돈의 격자.                                                          |
+|**넘마인** |격자 곳곳에 비밀 숫자 장애물 존재. 인접하면 숫자가 공개되고, 같은 숫자와 접촉 시 합체.                                                   |
+
+NumStone Series (English)
+
+NumStone is a strategic puzzle game where you drop number cards onto a grid and merge matching numbers. No time pressure — just think, drop, and chain your way to bigger numbers.
+
+Core Rules
+
+	•	3 cards wait in queue. Choose a column to drop the first card — it lands on the bottom or stacks on top of another card.
+	•	Matching numbers adjacent in any direction merge. The newer card is absorbed into the older one, doubling its value. Chain merges are possible.
+	•	The game ends when the top row is full — even if space remains below.
+
+Series Lineup
+
+|Game        |What’s Different        |
+|------------|-------------------------|
+|**NumStone**|Pure merge strategy. Number cards only.                                                                                                                                                                                            |
+|**NumDrops**|NumStone without rocks. Three grid sizes: 4×4, 5×5, 6×6.                                                                                                                                                                           |
+|**NumBoom** |Special cards fall alongside number cards: 💣÷2, 💥÷4, ☢️destroys / 🍎×2, 🍒×4, 🍇×8. They multiply or reduce adjacent numbers on contact. No adjacent number? Fruit rots, bomb misfires. Special cards cannot create numbers above 2048.|
+|**NumChaos**|All 6 special cards from NumBoom appear together — bombs and fruit falling in chaotic combination.                                                                                                                                 |
+|**NumMine** |Hidden number obstacles are scattered across the grid. Get close and the number is revealed; match it and it merges.                                                                                                               |
 
 ---
 ## ⚠️ **Copyright Protection   
