@@ -25,19 +25,17 @@ All games are registered copyrights. Unauthorized copying or redistribution is p
 |**넘넘**        |숫자(2·4·8·16) + 특수 카드 혼합| 🍎×2 🍒×4 🍇×8|-|4×6 / 5×5 / 6×6|
                          
  
-NumStone Series (English)
+## NumStone Series (English)
 
 NumStone is a strategic puzzle game where you drop number cards onto a grid and merge matching numbers. No time pressure — just think, drop, and chain your way to bigger numbers.
 
-Core Rules
+## Core Rules
 
-	•	3 cards wait in queue. Choose a column to drop the first card — it lands on the bottom or stacks on top of another card.
-	•	Matching numbers adjacent in any direction merge. The newer card is absorbed into the older one, doubling its value. Chain merges are possible.
-	•	The game ends when the top row is full — even if space remains below.
-	•	In NumBoom / NumNum / NumChaos, number cards (2, 4, 8, 16) and special cards are shuffled together randomly in the queue. The player chooses a column, and the front card drops into that position.
-	•	Special cards have no effect if they land without touching a number card.
-
-
+* 3 cards wait in queue. Choose a column to drop the first card — it lands on the bottom or stacks on top of another card.  
+* Matching numbers adjacent in any direction merge. The newer card is absorbed into the older one, doubling its value. Chain merges are possible.  
+* The game ends when the top row is full — even if space remains below.  
+* In NumBoom / NumNum / NumChaos, number cards (2, 4, 8, 16) and special cards are shuffled together randomly in the queue. The player chooses a column, and the front card drops into that position.  
+* Special cards have no effect if they land without touching a number card.
 
 |Game        |Queue         |Special Cards       |Obstacle|Grid Size      |
 |------------|--------------|----------------------------|--------|---------------|
