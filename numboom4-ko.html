@@ -18,7 +18,7 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>넘붐 4×6 | Soosooland</title>
+<title>넘붐 4×4 | Soosooland</title>
 <meta name="description" content="NumBoom 4×6 — Drop numbers and bombs, divide and survive!">
 <link rel="canonical" href="https://soosooland.com/numboom/numboom4-ko.html">
 <link rel="stylesheet" href="https://soosooland.com/css/protection.css">
@@ -79,7 +79,7 @@
  #grid {
    display: grid;
    grid-template-columns: repeat(4, 72px);
-   grid-template-rows: repeat(6, 72px);
+   grid-template-rows: repeat(4, 72px);
    gap: 4px; background: #111; padding: 6px;
    border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);
  }
@@ -164,7 +164,7 @@
 <div id="start-screen">
  <button class="back-button" onclick="location.href='index.html'">←</button>
  <h1>넘붐</h1>
- <div style="font-size:2rem;">4×6</div>
+ <div style="font-size:2rem;">4×4</div>
  <p class="subtitle">폭탄을 피하며 숫자를 합치는 낙하 퍼즐</p>
  <div class="bomb-guide">
    <div><span class="emoji">🔥</span><span>÷2</span></div>
@@ -242,13 +242,13 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-const ROWS = 6, COLS = 4;
+const ROWS = 4, COLS = 4;
 const MODE = 'numboom4x4';
 const QUEUE_SIZE = 3;
 const CONSONANTS = 'BCDFGHJKLMNPQRSTVWXZ';
 const DIGITS = '23456789';
 
-const NUMBER_CARDS = [2, 4,8];
+const NUMBER_CARDS = [2, 4];
 const BOMB_CARDS = [
  { emoji: '🔥', div: 2 },
  { emoji: '💥', div: 4 },
