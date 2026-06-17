@@ -312,7 +312,7 @@ function randomCard() {
  if (Math.random() < 0.1) {
    return { bomb: BOMB_CARDS[Math.floor(Math.random() * BOMB_CARDS.length)] };
  }
- const weights = [60, 40];
+ const weights = [25,50,25];
  let r = Math.random() * 100;
  for (let i = 0; i < NUMBER_CARDS.length; i++) {
    r -= weights[i];
