@@ -158,7 +158,7 @@
    0% { transform: scale(1); opacity: 1; }
    100% { transform: scale(0); opacity: 0; }
  }
- .vanish-anim { animation: vanish 0.25s ease forwards; }
+ .vanish-anim { animation: vanish 0.25s ease; }
 
  footer { text-align: center; color: #d1cbcb; font-size: 0.8rem; margin-top: 30px; }
 </style>
@@ -425,12 +425,10 @@ function dropCard() {
  const effectSet = new Set();
 
  if (isBomb(card)) {
-   board[targetRow][col] = { bomb: card.bomb };
-   applyBombEffect(targetRow, col, effectSet);
-   board[targetRow][col] = { value: 0 }; // 폭탄 항상 사라짐
-   applyGravityAll();
-   runMergeLoopAll(effectSet);
- } else {
+  board[targetRow][col] = { bomb: card.bomb };
+  applyBombEffect(targetRow, col, effectSet);
+  runMergeLoopAll(effectSet);
+  } else {
    board[targetRow][col] = { value: card.value };
    applyGravityAll();
    runMergeLoop(targetRow, col, effectSet);
@@ -443,37 +441,35 @@ function dropCard() {
 
 // 폭탄 효과: 인접한 모든 숫자에 적용
 function applyBombEffect(r, c, effectSet) {
- const cell = board[r][c];
- if (!isBomb(cell)) return;
- const bomb = cell.bomb;
- const dirs = [[-1,0],[1,0],[0,-1],[0,1]];
+  const cell = board[r][c];
+  if (!isBomb(cell)) return;
+  const bomb = cell.bomb;
+  const dirs = [[-1,0],[1,0],[0,-1],[0,1]];
 
- for (const [dr,dc] of dirs) {
-   const nr=r+dr, nc=c+dc;
-   if (nr<0||nr>=ROWS||nc<0||nc>=COLS) continue;
-   if (board[nr][nc].value > 0) {
-     if (bomb.div === 0) {
-       // ☢️ 소멸
-       board[nr][nc] = { value: 0 };
-       effectSet.add(`${nr}-${nc}-vanish`);
-     } else {
-       const oldVal = board[nr][nc].value;
-       if (oldVal % bomb.div === 0) {
-         // 나누어 떨어짐 → 나눗셈
-         const newVal = oldVal / bomb.div;
-         score = Math.max(0, score - (oldVal - newVal)); // 점수 감소
-         document.getElementById('score').textContent = score;
-         board[nr][nc] = { value: newVal };
-         effectSet.add(`${nr}-${nc}-bomb`);
-       } else {
-         // 나누어 떨어지지 않음 → 소멸
-         board[nr][nc] = { value: 0 };
-         effectSet.add(`${nr}-${nc}-vanish`);
-       }
-     }
-   }
- }
- board[r][c] = { value: 0 };
+  for (const [dr,dc] of dirs) {
+    const nr=r+dr, nc=c+dc;
+    if (nr<0||nr>=ROWS||nc<0||nc>=COLS) continue;
+    if (board[nr][nc].value > 0) {
+      if (bomb.div === 0) {
+        board[nr][nc] = { value: 0 };
+        effectSet.add(`${nr}-${nc}-vanish`);
+      } else {
+        const oldVal = board[nr][nc].value;
+        if (oldVal % bomb.div === 0) {
+          const newVal = oldVal / bomb.div;
+          score = Math.max(0, score - (oldVal - newVal));
+          document.getElementById('score').textContent = score;
+          board[nr][nc] = { value: newVal };
+          effectSet.add(`${nr}-${nc}-bomb`);
+        } else {
+          board[nr][nc] = { value: 0 };
+          effectSet.add(`${nr}-${nc}-vanish`);
+        }
+      }
+    }
+  }
+  board[r][c] = { value: 0 };
+  applyGravityAll(); // ← 추가
 }
 
 function runMergeLoop(newR, newC, effectSet) {
