@@ -53,7 +53,7 @@ This project is registered with the Korea Copyright Commission.
 
 | 게임 | 등록번호 | 등록일 |
 |------|----------|--------|
-| 넘스톤(Numstone)| C-2026-027940 | 2026.06.09 |
+| 넘스톤(NumStone)| C-2026-027940 | 2026.06.09 |
 
 ---
 ### ✨ 자유롭게 하실 수 있는 것
