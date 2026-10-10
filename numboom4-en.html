@@ -377,7 +377,6 @@ function init() {
 }
 
 function randomCard() {
- // 폭탄 확률 10% (넘넘의 과일 5%보다 높게 — 도전감)
  if (Math.random() < 0.10) {
    return { bomb: BOMB_CARDS[Math.floor(Math.random() * BOMB_CARDS.length)] };
  }
