@@ -61,8 +61,8 @@
 <style>
   :root {
   --content-width: 800px;
-  --tb-bg: #1a1a2e;
-  --tb-border: #666;
+  --tb-bg: #145454;
+  --tb-border: #fce9dc;
   --tb-text: #ddd;
   --tb-active-bg: #e8e8e8;
   --tb-active-text: #222;
@@ -106,11 +106,11 @@
 
 #lang-toggle {
     display: flex;
-    background: #2a2a4a;
-    border: 1px solid #444;
+    background:#fce9dc ;
+    border: 1px solid #fce9dc;
     border-radius: 20px;
     padding: 6px 14px;
-    color: #f0c040;
+    color: #145454;
     font-size: 0.85rem;
     cursor: pointer;
     z-index: 100;
@@ -118,8 +118,6 @@
     transition: background 0.2s;
   }
  
- #lang-toggle:hover { background: #3a3a6a; }
-
   .lang-ko, .lang-en { transition: opacity 0.2s; }
   body.en .lang-ko { display: none; }
   body.ko .lang-en { display: none; }
